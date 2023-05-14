@@ -1,0 +1,23 @@
+.pagination {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 1rem;
+  }
+  
+  .pagination-list li {
+    display: inline-block;
+    margin: 0 0.25rem;
+  }
+  
+  .pagination-list a {
+    display: block;
+    padding: 0.5rem;
+    text-decoration: none;
+    color: #333;
+  }
+  
+  .pagination-list a.is-active {
+    background-color: #333;
+    color: #fff;
+  }
+  
